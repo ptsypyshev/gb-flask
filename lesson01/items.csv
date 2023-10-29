@@ -1,0 +1,41 @@
+id,name,description,price,category,image
+1,Blue Denim Jacket,Stylish denim jacket for both casual and formal occasions.,59.99,women,item1.png
+2,Black Leather Boots,Elegant leather boots with a sleek and comfortable design.,89.99,women,item2.png
+3,Striped Cotton Shirt,Classic striped shirt made from high-quality cotton fabric.,34.99,women,item3.png
+4,White Sneakers,Versatile sneakers suitable for various sports and activities.,49.99,women,item4.png
+5,Floral Print Dress,Beautiful floral print dress perfect for summer outings.,69.99,women,item5.png
+6,Gray Wool Sweater,Warm and cozy wool sweater in a stylish gray color.,79.99,women,item6.png
+7,Ripped Skinny Jeans,Trendy ripped skinny jeans for a fashionable look.,54.99,women,item_no_image_available.png
+8,Leopard Print Blouse,Chic leopard print blouse to enhance your outfit.,39.99,women,item_no_image_available.png
+9,Knit Cardigan,Cozy knit cardigan for a comfortable and stylish look.,64.99,women,item_no_image_available.png
+10,Suede Ankle Boots,Stylish suede ankle boots to complete your ensemble.,74.99,women,item_no_image_available.png
+11,Navy Blue Blazer,Smart and sophisticated navy blue blazer for a polished look.,79.99,men,item_no_image_available.png
+12,Brown Leather Loafers,Classic brown leather loafers for a comfortable and stylish look.,109.99,men,item_no_image_available.png
+13,Checked Button-Up Shirt,Stylish checked button-up shirt made from high-quality fabric.,49.99,men,item_no_image_available.png
+14,Black Formal Pants,Sleek black formal pants for a dapper appearance.,69.99,men,item_no_image_available.png
+15,Striped Polo T-Shirt,Timeless striped polo t-shirt for a casual yet polished look.,29.99,men,item_no_image_available.png
+16,Gray Wool Coat,Warm and stylish gray wool coat to keep you comfortable in colder weather.,99.99,men,item_no_image_available.png
+17,Distressed Jeans,Trendy distressed jeans for a rugged and fashionable appearance.,54.99,men,item_no_image_available.png
+18,Plaid Flannel Shirt,Casual plaid flannel shirt for a laid-back yet stylish outfit.,39.99,men,item_no_image_available.png
+19,V-Neck Sweater,Comfortable and versatile v-neck sweater for a timeless look.,59.99,men,item_no_image_available.png
+20,Suede Chelsea Boots,Sleek suede Chelsea boots to elevate your footwear collection.,89.99,men,item_no_image_available.png
+21,Dinosaur Print T-Shirt,Cool dinosaur print t-shirt for young explorers and dinosaur enthusiasts.,19.99,kids,item_no_image_available.png
+22,Rainbow Tutu Dress,Colorful and twirly rainbow tutu dress for little princesses.,29.99,kids,item_no_image_available.png
+23,Superhero Pajama Set,Comfy and fun superhero pajama set for kids to feel like a superhero even during bedtime.,24.99,kids,item_no_image_available.png
+24,Star Patterned Leggings,Adorable star patterned leggings for little ones to stay stylish and comfortable.,14.99,kids,item_no_image_available.png
+25,Unicorn Hoodie,Magical unicorn hoodie to keep kids cozy and trendy.,34.99,kids,item_no_image_available.png
+26,Printed Jogger Pants,Stylish and comfortable printed jogger pants for active kids.,19.99,kids,item_no_image_available.png
+27,Strawberry Print Dress,Sweet and summery strawberry print dress for little fashionistas.,26.99,kids,item_no_image_available.png
+28,Animal Face Hooded Jacket,Cute animal face hooded jacket to keep kids warm and adorable.,39.99,kids,item_no_image_available.png
+29,Tiger Print Onesie,Cozy and playful tiger print onesie for adventure-loving kids.,32.99,kids,item_no_image_available.png
+30,Colorful Sneakers,Vibrant and comfy sneakers for kids to step out in style.,29.99,kids,item_no_image_available.png
+31,Statement Necklace,Bold and eye-catching statement necklace to elevate any outfit.,39.99,accessories,item_no_image_available.png
+32,Leather Belt,Stylish and durable leather belt to add a touch of sophistication.,24.99,accessories,item_no_image_available.png
+33,Silk Scarf,Luxurious silk scarf with a beautiful print to complete your look.,49.99,accessories,item_no_image_available.png
+34,Crossbody Bag,Chic and practical crossbody bag for carrying your essentials.,69.99,accessories,item_no_image_available.png
+35,Patterned Headband,Playful and trendy patterned headband for a stylish hair accessory.,14.99,accessories,item_no_image_available.png
+36,Aviator Sunglasses,Timeless and fashionable aviator sunglasses to shield your eyes in style.,34.99,accessories,item_no_image_available.png
+37,Beanie Hat,Cozy and versatile beanie hat to keep you warm and stylish.,19.99,accessories,item_no_image_available.png
+38,Leather Gloves,Classic and elegant leather gloves for a sophisticated touch.,29.99,accessories,item_no_image_available.png
+39,Printed Bandana,Versatile and stylish printed bandana for adding flair to any outfit.,9.99,accessories,item_no_image_available.png
+40,Fashion Watch,Trendy and sleek fashion watch to stay on time with style.,59.99,accessories,item_no_image_available.png
