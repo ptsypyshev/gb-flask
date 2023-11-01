@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="home">
+    <img class="home-meta-img" src="/static/images/main_img.png" alt="">
+    <div class="home-meta">
+        <div class="main-sep">
+            <img src="/static/images/main_sep.png" alt="">
+        </div>
+        <div class="home-text">
+            <h1 class="main-title">
+                THE BRAND
+            </h1>
+            <p class="main-subtitle">OF LUXERIOUS <span class="main-subtitle-red-part">FASHION</span></p>
+        </div>
+    </div>
+</div>
+<div class="offers container">
+    {% for offer in offers %}    
+    <a href="/category/{{ offer.name }}" class="a-offer-for-{{ offer.name }}">
+        <div class="offer offer-for-{{ offer.name }}">
+            <p class="offer-white-title">{{ offer.offer_name }}<br><span class="offer-red-title">for {{ offer.name }}</span></p>
+        </div>
+    </a>    
+    {% endfor %}
+</div>
+<div class="container items-title">
+    <h2 class="h2-items-title">Fetured Items</h2>
+    <p class="items-desc">
+        Shop for items based on what we featured in this week
+    </p>
+</div>
+
+{% include "items.html" ignore missing with context %}
+
+<div class="container browse-all">
+    <button class="browse-all-btn">Browse All Product</button>
+</div>
+{% endblock %}

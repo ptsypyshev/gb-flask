@@ -1,0 +1,20 @@
+<div class="items container">
+    {% for item in items %}
+    <div class="item">
+        <div class="img-container">
+            <img src="/static/images/{{ item.image }}" class="item-img" alt="">
+            <div class="img-mask">
+                <button class="btn-add2cart">
+                    <img src="/static/images/cart.svg" class="btn-icon" width="30" height="30" alt="">
+                    <span class="btn-add2cart-txt">Add to Cart</span>
+                </button>
+            </div>
+        </div>            
+        <div class="item-text">
+            <h3 class="h3-item-feautre">{{ item.name }}</h3>
+            <p class="item-feature-description">{{ item.description }}</p>
+            <p class="item-price">${{ item.price }}</p>
+        </div>          
+    </div>
+    {% endfor %}
+</div>  
