@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    {% if bad_req %}
+    <div class="container col-12 mb-2 text-danger">{{ bad_req }}</div>
+    {% endif %}
+
+    <div class="container my-5">
+        <h1>Login</h1>
+        <form method="POST" action="{{ url_for('sign_in') }}">
+            {{ form.csrf_token }}
+            <p>
+                {{ form.email.label }}<br>
+                {{ form.email(size=32) }}
+            </p>
+            <p>
+                {{ form.password.label }}<br>
+                {{ form.password(size=32) }}
+            </p>
+            <p>
+                <input type="submit" value="Login" class="btn btn-primary">
+            </p>
+        </form>
+    </div>
+{% endblock %}
