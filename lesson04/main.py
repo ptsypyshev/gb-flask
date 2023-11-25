@@ -28,6 +28,7 @@ if __name__ == '__main__':
     if len_argv < 2:
         print('No urls specified', 'Usage: python main.py https://some.domain1/uri1 https://some.domain2/uri2', sep='\n')
         exit(1)
+
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main(sys.argv[1:]))
     print(f'Full processing time is {time.time() - start_time:.2f} seconds')
