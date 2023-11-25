@@ -1,5 +1,5 @@
 import requests
-import threading
+from multiprocessing import Process, Pool
 import time
 
 def download(url, start_time):
@@ -9,15 +9,15 @@ def download(url, start_time):
     with open(filename, "wb") as f:
         f.write(response.content)
 
-threads = []
+processes = []
 
-def run_threading(urls, start_time):
+def run_multiprocessing(urls, start_time):
     for url in urls:
-        thread = threading.Thread(target=download, args=[url, start_time])
-        threads.append(thread)
-        thread.start()
-    for thread in threads:
-        thread.join()
+        process = Process(target=download, args=(url, start_time))
+        processes.append(process)
+        process.start()
+    for process in processes:
+        process.join()
 
 # Examples
 # python ./main_threading.py https://hb.bizmrg.com/frontend-scripts/assets/home/friday-banner/friday-after_desktop.jpg https://gb.ru/_nuxt/img/89f1beb.png https://gb.ru/_nuxt/img/6c757d5.png
