@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+}
+
+.column {
+    border: 1px solid;
+    border-collapse: inherit;
+    min-width: 150px;
+    padding: 10px;
+}
